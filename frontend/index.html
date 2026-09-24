@@ -97,7 +97,7 @@ footer{padding:30px 0 46px;color:var(--mut);font-size:14px;text-align:center;pos
 <section id="quiz"><h2>Test yourself</h2><p class="sub">Score: <span id="score">0</span></p><div class="glass panel" id="quizbox">Loading questions…</div></section>
 <footer>PhishGuard AI · A full-stack cyber awareness project · Frontend on Vercel, backend on Render</footer></div>
 <script>
-const API_URL="https://YOUR-RENDER-APP.onrender.com"; // replace after deploying the backend
+const API_URL="https://phishguard-ai-ci19.onrender.com"; // replace after deploying the backend
 const $=id=>document.getElementById(id);
 $("pts").innerHTML=Array.from({length:34},()=>`<i class="pt" style="left:${20+Math.random()*60}%;top:${Math.random()*62}%;animation-delay:${-Math.random()*6}s"></i>`).join("");
 const S=[["http://paypal.com.secure-login.xyz/verify","Urgent! Your account is suspended. Verify your password immediately."],
